@@ -1,16 +1,18 @@
 // a couple of functions from the React library
 import React, { Component } from 'react';
 
+// import components
+import Map from './_Map';
 
 
-class App extends Component{
+class Main extends Component{
     render(){
         return (
-            <div className="Map">
-
+            <div>
+                <Map />
             </div>
         );
     }
 }
 
-export default App;
+export default Main;
