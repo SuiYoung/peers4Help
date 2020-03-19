@@ -1,0 +1,15 @@
+nav ul {
+    @include fluid-type (2.5rem, 4rem, 360px, 1280px);
+    background: rgb(186, 168, 252);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 2%;
+    }
+}

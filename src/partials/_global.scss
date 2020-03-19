@@ -1,0 +1,98 @@
+ /****** GENERAL STYLING ******/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    @include fluid-type (1.75rem, 2rem, 360px, 1280px);
+    font-family: $bodyFont;
+    color: $blackColor;
+    background: $whiteColor;
+}
+
+.application {
+    margin : 0;
+    padding: 0;
+    position: absolute;
+}
+
+a {
+    color: $blackColor;
+    text-decoration: none;
+}
+
+main {
+    min-height: 80vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $headingFont;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button:not(.navButton) {
+        border-radius: 25px;
+        width: 100%;
+        height: 5rem;
+        background: transparent;
+        border: none;
+        @include fluid-type (2.5rem, 4rem, 360px, 1280px);
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+a:focus {
+    outline: 1px dashed red;
+}
+
+.hide {
+    display: none;
+}
+
+// Accessibility code for skip-link
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: 1%;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    font-size: 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $blackColor;
+}
+
+.skip-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.skip-link:focus {
+    left: 5%;
+    top: 10rem;
+}
+
+// ^ End skip code 

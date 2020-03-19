@@ -1,0 +1,53 @@
+// Form styling
+
+form.reviewForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        width: 60%;
+        height: 5vh;
+        margin: 1%;
+        border-radius: 25px;
+        font-family: $bodyFont;
+    }
+
+    input[type=text] {
+        padding-left: 1%;
+    }
+
+    textarea {
+        width: 60%;
+        margin: 1%;
+        border-radius: 25px;
+        padding: 1%;
+        font-family: $bodyFont;
+    }
+
+    .radioSection {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        input {
+            width: 5%;
+            height: fit-content;
+            height: auto;
+        }
+        
+    }
+
+
+
+    .submitButton {
+        margin-bottom: 5rem;
+        width: 25%;
+    }
+}
+
+.noOverflowX {
+    overflow-x: hidden;
+    margin-bottom: 5%;
+}
