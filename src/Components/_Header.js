@@ -8,10 +8,10 @@ class Header extends Component{
             <div className="App">
             <header className="App-header">
                 <nav>
+                    <img src={'https://img.icons8.com/bubbles/100/000000/user-location.png'} alt="location icon"/>
                     <ul>
-                        <li><button>Need</button></li>
-                        <li><img src={'https://img.icons8.com/bubbles/100/000000/user-location.png'} alt="location icon"/></li>
-                        <li><button>Help</button></li>
+                        <li><button class="navButton">Need</button></li>
+                        <li><button class="navButton">Help</button></li>
                     </ul>
                 </nav>
             </header>

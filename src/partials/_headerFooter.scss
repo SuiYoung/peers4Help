@@ -1,7 +1,13 @@
+header {
+    width: 100vw;
+    background: rgb(186, 168, 252);
+}
+
 nav ul {
     @include fluid-type (2.5rem, 4rem, 360px, 1280px);
-    background: rgb(186, 168, 252);
-    width: 100vw;
+    margin: 0 auto;
+    width: 85%;
+    height: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -10,7 +16,19 @@ nav ul {
     li {
         text-decoration: none;
         list-style-type: none;
-        margin: 0 2%;
+        margin: 0 1%;
     }
+
+}
+
+img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.navButton {
+    width: 12rem;
+    padding: 1%;
+    border-radius: 25px;
 }
 

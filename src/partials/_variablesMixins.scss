@@ -1,15 +1,15 @@
 // FONT IMPORTS
-@import url('https://fonts.googleapis.com/css?family=Maitree|Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,700,700i&display=swap');
 
 // ○○○ Variables
 $accent1: #7BE0AD;
-$accent2: #AEE5D8;
+$accent2: rgb(46, 50, 255);
 $grayColor: #E7E5E5;
 $darkerGray: darken($grayColor, 50%);
 $blackColor: #000;
 $whiteColor: #F8F8F8;
-$headingFont: 'Maitree';
-$bodyFont: 'Montserrat';
+$headingFont: 'Poppins', sans-serif;
+$bodyFont: 'Poppins', sans-serif;
 
 // ○○○ mixins
 
