@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/peers4Help/static/css/main.b3cd31ee.chunk.css",
+    "main.js": "/peers4Help/static/js/main.15bae65c.chunk.js",
+    "main.js.map": "/peers4Help/static/js/main.15bae65c.chunk.js.map",
+    "runtime-main.js": "/peers4Help/static/js/runtime-main.83c14e1d.js",
+    "runtime-main.js.map": "/peers4Help/static/js/runtime-main.83c14e1d.js.map",
+    "static/js/2.42aff041.chunk.js": "/peers4Help/static/js/2.42aff041.chunk.js",
+    "static/js/2.42aff041.chunk.js.map": "/peers4Help/static/js/2.42aff041.chunk.js.map",
+    "index.html": "/peers4Help/index.html",
+    "precache-manifest.8b08be79f510222bf5d4302300a1ce9a.js": "/peers4Help/precache-manifest.8b08be79f510222bf5d4302300a1ce9a.js",
+    "service-worker.js": "/peers4Help/service-worker.js",
+    "static/css/main.b3cd31ee.chunk.css.map": "/peers4Help/static/css/main.b3cd31ee.chunk.css.map",
+    "static/js/2.42aff041.chunk.js.LICENSE.txt": "/peers4Help/static/js/2.42aff041.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c14e1d.js",
+    "static/js/2.42aff041.chunk.js",
+    "static/css/main.b3cd31ee.chunk.css",
+    "static/js/main.15bae65c.chunk.js"
+  ]
+}
